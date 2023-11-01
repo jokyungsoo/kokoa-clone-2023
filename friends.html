@@ -1,0 +1,110 @@
+<!-- Enter ! in vsc and press Enter to complete the basic settings.  -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>friend - Kokoa Clone</title>
+    </head>
+
+    <body>
+        <div class="status-bar">
+            <div class="status-bar_column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+
+            <div class="status-bar_column">
+                <span>18:43</span>
+            </div>
+
+            <div class="status-bar_column">
+                <span>10%</span>
+                <!--Battery Icon-->
+                <i class="fas fa-battery-three-quarters fa-lg"></i>
+                <!--Lighting Icon-->
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+
+        <header class="screen-header">
+            <h1 class="screen-header_title">Friends</h1>
+            <div class="screen-header_icon">
+                <span><i class="fas fa-search fa-lg"></i></span>
+                <span><i class="fas fa-music fa-lg"></i></span>
+                <span><i class="fas fa-cog fa-lg"></i></span>
+            </div>
+        </header>
+
+        <a href="#" id="friends-display-link"
+            ><i class="fas fa-info-circle"></i>Friend's Names Display<i class="fas fa-chevron-right fa-xs"></i
+        ></a>
+        <main class="friends-screen">
+            <div class="user-component">
+                <div class="user-component_column">
+                    <img
+                        src="https://avatars.githubusercontent.com/u/3612017?s=48&v=4"
+                        class="user-component_avartar user-component_avartar--xl"
+                    />
+                    <div class="user-component_text">
+                        <h4 class="user-component_title">Nicolas</h4>
+                        <h6 class="user-component_subtitle">This is subtitle</h6>
+                    </div>
+                </div>
+                <!-- What is this line? -->
+                <div class="user-component_column"></div>
+            </div>
+            <!-- Channel & up arrow -->
+            <div class="friends-screen_channel">
+                <div class="friends-screen_header-screen">
+                    <span>Channel</span>
+                    <i class="fas fa-chevron-up fa-xs"></i>
+                </div>
+                <!-- Channel profile -->
+                <div class="user-component">
+                    <div class="user-component_column">
+                        <img
+                            src="https://avatars.githubusercontent.com/u/3612017?s=48&v=4"
+                            class="user-component_avartar user-component_avartar--sm"
+                        />
+                        <!-- Channel -->
+                        <div class="user-component_text">
+                            <h4 class="user-component_title user-component_title--not-bold">Channel</h4>
+                        </div>
+                    </div>
+                    <!-- count number -->
+                    <div class="user-component_column">
+                        <div>
+                            <span>2</span>
+                            <i class="fas fa-chevron-right fa-xs"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_btn">
+                    <a href="friends.html" class="nav_link"><i class="fas fa-user fa-2x"></i></a>
+                </li>
+                <li class="nav_btn">
+                    <a href="chats.html" class="nav_link">
+                        <span class="nav-notification badge">1</span>
+                        <i class="far fa-comment fa-2x"></i
+                    ></a>
+                </li>
+                <li class="nav_btn">
+                    <a href="find.html" class="nav_link">
+                        <i class="fas fa-search fa-2x"> </i>
+                    </a>
+                </li>
+                <li class="nav_btn">
+                    <a href="more.html" class="nav_link"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+                </li>
+            </ul>
+        </nav>
+
+        <script src="https://kit.fontawesome.com/b9a9d210f7.js" crossorigin="anonymous"></script>
+    </body>
+</html>

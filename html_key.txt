@@ -1,0 +1,26 @@
+html shortcut key collection!!
+
+
+1.
+ div.name = <div class="name"></div>
+
+2.
+ div#id = <div id="id"></div>
+
+3. 
+ div.name>span = <div class="name"><span></span></div>
+
+4.
+ ol>li*3 =
+ <ol>
+     <li></li>
+     <li></li>
+     <li></li>
+ </ol>
+
+serch
+ <i class="fas fa-search">
+music
+ <i class="fas fa-music">
+setting
+<i class="fas fa-cog"></i>
